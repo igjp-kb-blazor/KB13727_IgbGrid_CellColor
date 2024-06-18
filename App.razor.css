@@ -1,0 +1,26 @@
+﻿/*氏名 列のスタイル設定*/
+::deep .person:hover {
+    background-color: lightpink;
+}
+::deep .person {
+    background-color: hotpink;
+}
+
+/*年齢 列のスタイル設定*/
+::deep .upFont {
+    color: green;
+    font-weight: bold;
+}
+::deep .downFont {
+    color: red;
+    font-weight: bold;
+}
+
+/*職業 列のスタイル設定*/
+::deep .job-title-cell:hover {
+    background-color: lightgreen;
+}
+::deep .job-header,
+::deep .job-title-cell {
+    background-color: limegreen;
+}
